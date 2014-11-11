@@ -1,0 +1,22 @@
+#about {
+	background-image:url(congruent_outline.png);
+	background-repeat: repeat;
+}
+
+#about h2 {
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: left;
+	padding-top: 30px;
+}
+
+#about p {
+	color: white;
+	font-size: large;
+	padding-top: 30px;
+	margin-left: 20px;
+	padding-bottom: 50px;
+}
+
+
