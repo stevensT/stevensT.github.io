@@ -64,7 +64,7 @@
 	margin-bottom: 20px;
 }
 
-#footer .social-icon{
+.social-icon{
 	display: table;
 	margin-right: auto;
 	margin-left: auto;
@@ -72,11 +72,11 @@
 	margin-bottom: 18px;
 }
 
-#footer .social-icon > li{
+.social-icon > li{
 	display: inline;
 }
 
-#footer .social-icon > li > a{
+.social-icon > li > a{
 	width: 50px;
 	height: 50px;
 	display: inline-block;
@@ -92,7 +92,7 @@
 	margin: 10px 5px;
 }
 
-#footer .social-icon > li > a > span{
+.social-icon > li > a > span{
 	display: inline-block;
 	text-align: center;
 	vertical-align: middle;
@@ -109,26 +109,27 @@
 	transition: all 0.3s ease-in-out;
 }
 
-#footer .social-icon > li > a:hover > span{
+.social-icon > li > a:hover > span{
 	color: #ffffff;
 }
 
-#footer .social-icon > li > .icon-facebook:hover{
+.social-icon > li > .icon-facebook:hover{
 	background: #4467AD;
 }
 
-#footer .social-icon > li > .icon-twitter:hover{
+.social-icon > li > .icon-twitter:hover{
 	background: #4099FF;
 }
 
-#footer .social-icon > li > .icon-gplus:hover{
+.social-icon > li > .icon-gplus:hover{
 	background: #FF4B4B;
 }
 
-#footer .social-icon > li > .icon-instagram:hover{
+.social-icon > li > .icon-instagram:hover{
 	background: green;
+}
 
-#footer sitemap li {
+.sitemap li {
 	display: inline;
 }
 
