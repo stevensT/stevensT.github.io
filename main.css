@@ -28,8 +28,9 @@
 }
 
 #main {
-	background-image:url(images/congruent_outline.png);
+	background-image:url(congruent_outline.png);
 	background-repeat: repeat;
+	min-height: 500px;
 }
 
 #main h1 {
@@ -64,7 +65,7 @@
 	margin-bottom: 20px;
 }
 
-.social-icon{
+#footer .social-icon{
 	display: table;
 	margin-right: auto;
 	margin-left: auto;
@@ -72,11 +73,11 @@
 	margin-bottom: 18px;
 }
 
-.social-icon > li{
+#footer .social-icon > li{
 	display: inline;
 }
 
-.social-icon > li > a{
+#footer .social-icon > li > a{
 	width: 50px;
 	height: 50px;
 	display: inline-block;
@@ -92,7 +93,7 @@
 	margin: 10px 5px;
 }
 
-.social-icon > li > a > span{
+#footer .social-icon > li > a > span{
 	display: inline-block;
 	text-align: center;
 	vertical-align: middle;
@@ -109,28 +110,32 @@
 	transition: all 0.3s ease-in-out;
 }
 
-.social-icon > li > a:hover > span{
+#footer .social-icon > li > a:hover > span{
 	color: #ffffff;
 }
 
-.social-icon > li > .icon-facebook:hover{
+#footer .social-icon > li > .icon-facebook:hover{
 	background: #4467AD;
 }
 
-.social-icon > li > .icon-twitter:hover{
+#footer .social-icon > li > .icon-twitter:hover{
 	background: #4099FF;
 }
 
-.social-icon > li > .icon-gplus:hover{
+#footer .social-icon > li > .icon-gplus:hover{
 	background: #FF4B4B;
 }
 
-.social-icon > li > .icon-instagram:hover{
+#footer .social-icon > li > .icon-instagram:hover{
 	background: green;
 }
 
-.sitemap li {
-	display: inline;
+.sitemap {
+	padding-left: 15px;
+}
+
+.sitemap a {
+	padding-right: 10px
 }
 
 .copyright {
